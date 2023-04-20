@@ -1,10 +1,9 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
-from django.urls import reverse, reverse_lazy
 from django.views import generic
+from django.urls import reverse, reverse_lazy
 
 from .models import Pet
-
 
 # Create your views here.
 def index(request):

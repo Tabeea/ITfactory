@@ -36,11 +36,11 @@ input[type=text] {
     margin-bottom:10px;
 }
 
-h2, .pets-list {
-    border-radius:10px;
-    box-shadow:5px 5px lightblue;
-    padding:10px;
-    margin:10px;
+h2, .pets-list {   # . means class from all_pets.html
+    border-radius: 10px;
+    box-shadow: 5px 5px lightblue;
+    padding: 10px;
+    margin: 10px;
 }
 
 .pets-list {

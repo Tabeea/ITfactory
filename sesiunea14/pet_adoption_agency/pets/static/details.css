@@ -1,0 +1,30 @@
+body {
+    background: url("https://www.dreamstime.com/animal-shelter-concept-lonely-animals-cages-wait-adoption-rehabilitation-center-stray-pets-homeless-cartoon-flat-image180302137.jpg") no-repeat;
+    background-size: cover;
+}
+
+.pet-details {
+    background-color: lightpink;
+    border-color: 2px solid hotpink;
+    border-radius:15px;
+    width: 99vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    box-sizing: border-box;
+}
+
+
+span, .pet-name {
+    margin: 22px;
+    font-family: "Academy Engraved LET";
+    font-size: 3en;
+    color: cadetblue;
+}
+
+.pet-name {
+    font-weight: bold;
+    display: block;
+}
